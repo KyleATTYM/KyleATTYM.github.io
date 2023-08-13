@@ -116,7 +116,7 @@ const config = {
     snippetVersion: 6,
   },
   themeConfig: { //TODO: Change the theme of the website to your liking
-    defaultTheme: 'bumblebee',
+    defaultTheme: 'emerald',
 
     // Hides the switch in the navbar
     // Useful if you want to support a single color mode
