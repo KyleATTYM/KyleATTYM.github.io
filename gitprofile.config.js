@@ -2,7 +2,7 @@
 
 const config = {
   github: {
-    username: '', //TODO: Your GitHub org/user name. (Required)
+    username: 'KyleATTYM', //TODO: Your GitHub org/user name. (Required)
     sortBy: 'stars', // stars | updated
     limit: 4, // How many projects to display.
     exclude: {
@@ -11,18 +11,18 @@ const config = {
     },
   },
   scratch: {
-    username: '', //TODO: Your Scratch username. (Required)
-    limit: 8, // How many projects to display; maximum 20
-    sortBy: 'date', // date | views | remixes
-    corsProxy: "" //TODO: Enter your CORS Proxy here
+    username: 'ultramanatKyleLim', //TODO: Your Scratch username. (Required)
+    limit: 8, // How many projects to display; maximum 1000
+        sortBy: 'date', // date | views | remixes
+    corsProxy: "https://scratchapicors-git-main-kyleattym.vercel.app/" //TODO: Enter your CORS Proxy here
   },
   social: { //TODO: Add in Socials
-    linkedin: '',
-    facebook: '',
-    instagram: '',
-    tiktok: '',
-    email: '',
-    website: '',
+    // linkedin: '',
+    // facebook: '',
+    // instagram: '',
+    // tiktok: '',
+    email: 'kylelzh12@gmail.com',
+    website: 'http://theyoungmaker.com',
     // dev: '',
     // twitter: '',
     // mastodon: '',
@@ -47,8 +47,6 @@ const config = {
     'Git',
     'CSS',
     'MakeCode',
-    'ScratchJr',
-    'Hopscotch',
     'Robotics',
   ],
   experiences: [
@@ -76,17 +74,11 @@ const config = {
     },
   ],
   education: [
-    {
-      institution: 'Institution Name',
-      degree: 'Degree',
-      from: '2015',
-      to: '2019',
-    },
-    {
-      institution: 'Institution Name',
-      degree: 'Degree',
-      from: '2012',
-      to: '2014',
+        {
+      institution: 'Nanyang Primary School',
+      degree: 'Primary School',
+      from: '2019',
+      to: 'current',
     },
   ],
 
@@ -98,7 +90,7 @@ const config = {
         'This project presents a Flappy Bird-inspired game designed for the Micro:bit v2 platform. It is constructed using for loops, conditional statements, functions, and lists to create an entertaining and interactive gaming experience.',
       imageUrl:
         'https://upload.wikimedia.org/wikipedia/en/0/0a/Flappy_Bird_icon.png',
-      link: 'https://makecode.microbit.org/_8hTHCD4ax7ty',
+      link: 'https://makecode.microbit.org/_241bie844aLi',
     },
     {
       title: 'Microbit Space Invaders',
@@ -106,7 +98,7 @@ const config = {
         "This project features a traditional Space Invaders game developed for the Microbit v2 platform. It utilizes while loops, conditional statements, variables, and the Microbit's native game coordinate system to deliver an engaging gaming experience.",
       imageUrl:
         'https://www.svg.com/img/gallery/the-original-idea-behind-space-invaders-that-could-have-changed-gaming-forever/l-intro-1608754172.jpg',
-      link: 'https://makecode.microbit.org/_UXqLuYJfJRL6',
+      link: 'https://makecode.microbit.org/_Hxxaw07K4V4R',
     },
   ],
   // Display blog posts from your medium or dev account. (Optional)
